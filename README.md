@@ -694,6 +694,8 @@ Ref: https://www.thepexcel.com/n8n-ep01/
 4. ดาวน์โหลด `Client ID` + `Client Secret`
 5. เพิ่มตัวเองใน **OAuth consent screen** → Test users
 
+Ref: https://www.youtube.com/watch?v=FBGtpWMTppw&t=184s
+
 ---
 
 ## 7.2 ตั้งค่า Credential ใน n8n
