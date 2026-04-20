@@ -23,9 +23,10 @@ Welcome to the **Get Started with LLMs** course.
 
 ## How to Use This Repository
 
-- อ่านเนื้อหาแต่ละบทจากไฟล์ `README.md` นี้
-- เข้าไปดูไฟล์ตัวอย่างแยกตามบทในโฟลเดอร์ `examples/`
-- โฟลเดอร์ `01-07` มีไว้เก็บตัวอย่างของบทนั้น ๆ เท่านั้น
+- Read all chapter learning material in this root `README.md`.
+- Open chapter-specific sample files inside each `examples/` folder.
+- Folders `01-07` are used to store chapter examples only.
+- (TH) เนื้อหาหลักอยู่ใน `README.md` นี้ และโฟลเดอร์ `01-07` ใช้เก็บไฟล์ตัวอย่างของแต่ละบทเท่านั้น
 
 ---
 
