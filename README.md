@@ -1,5 +1,5 @@
 ---
-marp: true
+marp: false
 theme: default
 paginate: true
 header: 'Get Started with LLMs'
@@ -64,6 +64,7 @@ style: |
     color: #1e40af;
     font-weight: 600;
   }
+
 ---
 
 <!-- _class: lead -->
