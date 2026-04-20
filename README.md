@@ -1,34 +1,142 @@
-# คอร์สเริ่มต้นใช้งาน LLMs
+# Get Started with LLMs Course
 
-ยินดีต้อนรับสู่คอร์ส **Get Started with LLMs**! คอร์สนี้ออกแบบมาเพื่อแนะนำเครื่องมือและแพลตฟอร์ม Large Language Model (LLM) ที่ได้รับความนิยมมากที่สุดในปัจจุบัน
+Welcome to the **Get Started with LLMs** course.  
+All chapter learning content is centralized in this file, and each chapter folder stores example files in `examples/` only.
 
-## ภาพรวมคอร์ส
+## Course Overview
 
-คอร์สนี้ครอบคลุมหัวข้อต่อไปนี้:
+| # | Topic | Learning focus | Example file |
+|---|-------|----------------|--------------|
+| 1 | [Introduction](#1-introduction-to-llms) | LLM basics, key terminology, beginner concepts | [`01-introduction/examples/llm-glossary.md`](./01-introduction/examples/llm-glossary.md) |
+| 2 | [ChatGPT](#2-chatgpt) | Getting started, prompt engineering, limitations | [`02-chatgpt/examples/prompt-examples.md`](./02-chatgpt/examples/prompt-examples.md) |
+| 3 | [Claude](#3-claude) | Long context, project workflow, practical use cases | [`03-claude/examples/system-prompt-templates.md`](./03-claude/examples/system-prompt-templates.md) |
+| 4 | [Gemini](#4-gemini) | Multimodal AI, Google ecosystem, API usage | [`04-gemini/examples/gemini-api-examples.py`](./04-gemini/examples/gemini-api-examples.py) |
+| 5 | [NotebookLM](#5-notebooklm) | Source-grounded research workflow and citations | [`05-notebooklm/examples/use-case-scenarios.md`](./05-notebooklm/examples/use-case-scenarios.md) |
+| 6 | [LM Studio](#6-lm-studio) | Local model execution, model selection, inference setup | [`06-lm-studio/examples/model-selection-guide.md`](./06-lm-studio/examples/model-selection-guide.md) |
+| 7 | [n8n](#7-n8n) | Workflow automation and AI agent orchestration | [`07-n8n/examples/workflow-examples.md`](./07-n8n/examples/workflow-examples.md) |
 
-| # | หัวข้อ | คำอธิบาย |
-|---|-------|----------|
-| 1 | [บทนำ](./01-introduction/README.md) | LLM คืออะไร? แนวคิดพื้นฐานและภาพรวม |
-| 2 | [ChatGPT](./02-chatgpt/README.md) | เริ่มต้นใช้งาน ChatGPT และฟีเจอร์สำคัญ |
-| 3 | [Claude](./03-claude/README.md) | ความสามารถและกรณีใช้งานของ Claude |
-| 4 | [Gemini](./04-gemini/README.md) | AI แบบหลายสื่อและการเชื่อมต่อกับ Google |
-| 5 | [NotebookLM](./05-notebooklm/README.md) | ผู้ช่วยวิจัยอัจฉริยะจาก Google |
-| 6 | [LM Studio](./06-lm-studio/README.md) | รัน LLM แบบโลคัลบนเครื่องของคุณ |
-| 7 | [n8n](./07-n8n/README.md) | ระบบอัตโนมัติของเวิร์กโฟลว์ด้วย AI |
+## Prerequisites
 
-## สิ่งที่ควรมี
+- A computer with internet access
+- Basic familiarity with web browsers
+- No prior programming experience required
 
-- คอมพิวเตอร์ที่เชื่อมต่ออินเทอร์เน็ต
-- ใช้งานเว็บเบราว์เซอร์พื้นฐานได้
-- ไม่จำเป็นต้องมีประสบการณ์เขียนโปรแกรมมาก่อน
+## How to Use This Repository
 
-## วิธีใช้รีโพซิทอรีนี้
+- Read all chapter learning material in this root `README.md`.
+- Open chapter-specific sample files inside each `examples/` folder.
+- Folders `01-07` are used to store chapter examples only.
 
-แต่ละหัวข้อจะมีโฟลเดอร์ของตัวเอง โดยประกอบด้วย:
-- ไฟล์ **README.md** สำหรับเนื้อหา บทอธิบาย และแหล่งอ้างอิง
-- โฟลเดอร์ย่อย **examples/** สำหรับไฟล์ตัวอย่างเพื่อฝึกปฏิบัติ
+---
 
-## แหล่งอ้างอิง
+## 1. Introduction to LLMs
+
+### What is an LLM?
+Large Language Model (LLM) is an AI model trained on very large text datasets to generate, summarize, translate, and analyze language, typically using a Transformer-based architecture.
+
+### Key concepts
+- Prompt / Response
+- Token / Context Window
+- Temperature
+- System Prompt
+- Hallucination
+- Fine-tuning / RAG
+
+### Categories of LLM tools
+- Cloud-based: ChatGPT, Claude, Gemini
+- Local/on-device: LM Studio + open-source models
+- Workflow automation: n8n
+
+Example file: [`01-introduction/examples/llm-glossary.md`](./01-introduction/examples/llm-glossary.md)
+
+## 2. ChatGPT
+
+### Highlights
+- เริ่มต้นใช้งานผ่านเว็บได้ทันที
+- เหมาะกับงานสนทนา เขียน สรุป และช่วยเขียนโค้ด
+- คุณภาพผลลัพธ์ขึ้นกับคุณภาพของ prompt
+
+### Best practices
+- ระบุเป้าหมายให้ชัดเจน
+- กำหนดรูปแบบคำตอบ
+- iterative prompting (ถามต่อเนื่องเพื่อปรับผลลัพธ์)
+- ตรวจสอบข้อเท็จจริงที่สำคัญเสมอ
+
+Example file: [`02-chatgpt/examples/prompt-examples.md`](./02-chatgpt/examples/prompt-examples.md)
+
+## 3. Claude
+
+### Highlights
+- เด่นด้านการวิเคราะห์เอกสารยาวและการให้เหตุผล
+- รองรับบริบทขนาดใหญ่ (long context)
+- เหมาะกับงานวิเคราะห์เอกสาร, code review, งานเขียนเชิงลึก
+
+### Best practices
+- ใช้ Projects สำหรับงานที่ทำซ้ำ
+- อัปโหลดเอกสารจริงเพื่อให้ตอบแบบ grounded
+- ขอหลายแนวทางเพื่อเปรียบเทียบก่อนตัดสินใจ
+
+Example file: [`03-claude/examples/system-prompt-templates.md`](./03-claude/examples/system-prompt-templates.md)
+
+## 4. Gemini
+
+### Highlights
+- โมเดล multimodal (ข้อความ/ภาพ/เสียง/วิดีโอ)
+- ผสานกับ Google ecosystem (Search, Workspace)
+- ใช้งานผ่าน Gemini UI หรือ API ใน Google AI Studio
+
+### Best practices
+- ใช้ extension/เครื่องมือที่เกี่ยวข้องกับงาน
+- รวมหลายชนิดข้อมูลใน prompt เดียว
+- แยกทดลอง prompt ใน AI Studio ก่อนนำไปใช้จริง
+
+Example file: [`04-gemini/examples/gemini-api-examples.py`](./04-gemini/examples/gemini-api-examples.py)
+
+## 5. NotebookLM
+
+### Highlights
+- เน้นถามตอบจาก “แหล่งข้อมูลที่ผู้ใช้ให้” เป็นหลัก
+- มี citation ช่วยตรวจสอบที่มาของคำตอบ
+- เหมาะกับงาน research, study, synthesis เอกสารหลายแหล่ง
+
+### Best practices
+- เริ่มจากภาพรวม (guide/summary)
+- ถามแบบเจาะจงและตรวจ citation ทุกครั้ง
+- ใช้การเทียบข้ามเอกสารเพื่อหาจุดร่วม/จุดต่าง
+
+Example file: [`05-notebooklm/examples/use-case-scenarios.md`](./05-notebooklm/examples/use-case-scenarios.md)
+
+## 6. LM Studio
+
+### Highlights
+- รัน open-source LLM บนเครื่องตนเอง (offline ได้)
+- เหมาะกับงานที่ต้องการความเป็นส่วนตัว
+- รองรับ local OpenAI-compatible API
+
+### Best practices
+- เริ่มจากโมเดลขนาดเล็กและ quantization ระดับสมดุล (เช่น Q4_K_M)
+- เลือกโมเดลตามทรัพยากรเครื่อง (RAM/GPU)
+- ปรับ temperature/context ให้เหมาะกับประเภทงาน
+
+Example file: [`06-lm-studio/examples/model-selection-guide.md`](./06-lm-studio/examples/model-selection-guide.md)
+
+## 7. n8n
+
+### Highlights
+- สร้าง workflow automation แบบ visual
+- ผสาน LLM กับระบบจริง (email, docs, APIs, DB)
+- เหมาะกับงาน agentic workflow และงานที่ทำซ้ำ
+
+### Best practices
+- เริ่มจาก workflow เล็ก ๆ และทดสอบทีละ node
+- ตั้ง error handling และ monitoring
+- จัดการ credentials และ API limits อย่างรัดกุม
+
+Example file: [`07-n8n/examples/workflow-examples.md`](./07-n8n/examples/workflow-examples.md)
+
+---
+
+## References
 
 - [OpenAI ChatGPT](https://chat.openai.com)
 - [Anthropic Claude](https://claude.ai)
