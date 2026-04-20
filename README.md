@@ -71,7 +71,7 @@ style: |
 <!-- _header: '' -->
 <!-- _footer: '' -->
 
-![bg right:30% w:40%](https://commons.wikimedia.org/wiki/Special:FilePath/OpenAI_logo_2025_(symbol).svg)
+![bg right:15% w:20%](https://commons.wikimedia.org/wiki/Special:FilePath/OpenAI_logo_2025_(symbol).svg)
 
 # Get Started with LLMs Course
 
