@@ -47,7 +47,7 @@ Large Language Model (LLM) is an AI model trained on very large text datasets to
 - Local/on-device: LM Studio + open-source models
 - Workflow automation: n8n
 
-Example file: [`01-introduction/examples/llm-glossary.md`](./01-introduction/examples/llm-glossary.md)
+Example file: 
 
 ## 2. ChatGPT
 
@@ -62,8 +62,7 @@ Example file: [`01-introduction/examples/llm-glossary.md`](./01-introduction/exa
 - iterative prompting (ถามต่อเนื่องเพื่อปรับผลลัพธ์)
 - ตรวจสอบข้อเท็จจริงที่สำคัญเสมอ
 
-Example file: [`02-chatgpt/examples/prompt-examples.md`](./02-chatgpt/examples/prompt-examples.md)
-
+Example file: 
 ## 3. Claude
 
 ### Highlights
@@ -76,35 +75,35 @@ Example file: [`02-chatgpt/examples/prompt-examples.md`](./02-chatgpt/examples/p
 - อัปโหลดเอกสารจริงเพื่อให้ตอบแบบ grounded
 - ขอหลายแนวทางเพื่อเปรียบเทียบก่อนตัดสินใจ
 
-Example file: [`03-claude/examples/system-prompt-templates.md`](./03-claude/examples/system-prompt-templates.md)
+Example file: 
 
 ## 4. Gemini
 
 ### Highlights
 - โมเดล multimodal (ข้อความ/ภาพ/เสียง/วิดีโอ)
+- รับ context ได้มากที่สุด (2M tokens)
 - ผสานกับ Google ecosystem (Search, Workspace)
 - ใช้งานผ่าน Gemini UI หรือ API ใน Google AI Studio
 
 ### Best practices
-- ใช้ extension/เครื่องมือที่เกี่ยวข้องกับงาน
-- รวมหลายชนิดข้อมูลใน prompt เดียว
+- เหมาะสำหรับใช้ deep research, การหาข้อมูลที่พร้อมแนบ reference เพื่อตรวจสอบความถูกต้อง
+- เหมาะที่จะนำไปใช้ในรูปแบบ application เฉพาะเช่น nanobanana, stich, canvas, etc.
 - แยกทดลอง prompt ใน AI Studio ก่อนนำไปใช้จริง
 
-Example file: [`04-gemini/examples/gemini-api-examples.py`](./04-gemini/examples/gemini-api-examples.py)
-
+Example file: 
 ## 5. NotebookLM
 
 ### Highlights
 - เน้นถามตอบจาก “แหล่งข้อมูลที่ผู้ใช้ให้” เป็นหลัก
 - มี citation ช่วยตรวจสอบที่มาของคำตอบ
-- เหมาะกับงาน research, study, synthesis เอกสารหลายแหล่ง
+- เหมาะกับงาน research, study, synthesis เอกสารหลายแหล่ง, การแหล่งข้อมูลให้เป็น medias ต่างๆ
 
 ### Best practices
 - เริ่มจากภาพรวม (guide/summary)
 - ถามแบบเจาะจงและตรวจ citation ทุกครั้ง
 - ใช้การเทียบข้ามเอกสารเพื่อหาจุดร่วม/จุดต่าง
 
-Example file: [`05-notebooklm/examples/use-case-scenarios.md`](./05-notebooklm/examples/use-case-scenarios.md)
+Example file: 
 
 ## 6. LM Studio
 
@@ -118,7 +117,7 @@ Example file: [`05-notebooklm/examples/use-case-scenarios.md`](./05-notebooklm/e
 - เลือกโมเดลตามทรัพยากรเครื่อง (RAM/GPU)
 - ปรับ temperature/context ให้เหมาะกับประเภทงาน
 
-Example file: [`06-lm-studio/examples/model-selection-guide.md`](./06-lm-studio/examples/model-selection-guide.md)
+Example file: 
 
 ## 7. n8n
 
@@ -132,7 +131,7 @@ Example file: [`06-lm-studio/examples/model-selection-guide.md`](./06-lm-studio/
 - ตั้ง error handling และ monitoring
 - จัดการ credentials และ API limits อย่างรัดกุม
 
-Example file: [`07-n8n/examples/workflow-examples.md`](./07-n8n/examples/workflow-examples.md)
+Example file: 
 
 ---
 
