@@ -1,7 +1,7 @@
 # Get Started with LLMs Course
 
 Welcome to the **Get Started with LLMs** course.  
-เนื้อหาทุกบทถูกรวมไว้ในไฟล์นี้ และแต่ละโฟลเดอร์ใช้เก็บไฟล์ตัวอย่างใน `examples/` เท่านั้น
+All chapter learning content is centralized in this file, and each chapter folder stores example files in `examples/` only.
 
 ## Course Overview
 
@@ -26,7 +26,6 @@ Welcome to the **Get Started with LLMs** course.
 - Read all chapter learning material in this root `README.md`.
 - Open chapter-specific sample files inside each `examples/` folder.
 - Folders `01-07` are used to store chapter examples only.
-- (TH) เนื้อหาหลักอยู่ใน `README.md` นี้ และโฟลเดอร์ `01-07` ใช้เก็บไฟล์ตัวอย่างของแต่ละบทเท่านั้น
 
 ---
 
