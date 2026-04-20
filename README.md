@@ -47,7 +47,7 @@ Large Language Model (LLM) is an AI model trained on very large text datasets to
 - Local/on-device: LM Studio + open-source models
 - Workflow automation: n8n
 
-Example file: 
+Example file: [`01-introduction/examples/llm-glossary.md`](./01-introduction/examples/llm-glossary.md)
 
 ## 2. ChatGPT
 
@@ -62,7 +62,8 @@ Example file:
 - iterative prompting (ถามต่อเนื่องเพื่อปรับผลลัพธ์)
 - ตรวจสอบข้อเท็จจริงที่สำคัญเสมอ
 
-Example file: 
+Example file: [`02-chatgpt/examples/prompt-examples.md`](./02-chatgpt/examples/prompt-examples.md)
+
 ## 3. Claude
 
 ### Highlights
@@ -75,7 +76,7 @@ Example file:
 - อัปโหลดเอกสารจริงเพื่อให้ตอบแบบ grounded
 - ขอหลายแนวทางเพื่อเปรียบเทียบก่อนตัดสินใจ
 
-Example file: 
+Example file: [`03-claude/examples/system-prompt-templates.md`](./03-claude/examples/system-prompt-templates.md)
 
 ## 4. Gemini
 
@@ -90,7 +91,8 @@ Example file:
 - เหมาะที่จะนำไปใช้ในรูปแบบ application เฉพาะเช่น nanobanana, stich, canvas, etc.
 - แยกทดลอง prompt ใน AI Studio ก่อนนำไปใช้จริง
 
-Example file: 
+Example file:  [`04-gemini/examples/gemini-api-examples.py`](./04-gemini/examples/gemini-api-examples.py)
+
 ## 5. NotebookLM
 
 ### Highlights
@@ -103,7 +105,7 @@ Example file:
 - ถามแบบเจาะจงและตรวจ citation ทุกครั้ง
 - ใช้การเทียบข้ามเอกสารเพื่อหาจุดร่วม/จุดต่าง
 
-Example file: 
+Example file: [`05-notebooklm/examples/use-case-scenarios.md`](./05-notebooklm/examples/use-case-scenarios.md)
 
 ## 6. LM Studio
 
@@ -117,7 +119,7 @@ Example file:
 - เลือกโมเดลตามทรัพยากรเครื่อง (RAM/GPU)
 - ปรับ temperature/context ให้เหมาะกับประเภทงาน
 
-Example file: 
+Example file: [`06-lm-studio/examples/model-selection-guide.md`](./06-lm-studio/examples/model-selection-guide.md)
 
 ## 7. n8n
 
@@ -131,7 +133,7 @@ Example file:
 - ตั้ง error handling และ monitoring
 - จัดการ credentials และ API limits อย่างรัดกุม
 
-Example file: 
+Example file: [`07-n8n/examples/workflow-examples.md`](./07-n8n/examples/workflow-examples.md)
 
 ---
 
