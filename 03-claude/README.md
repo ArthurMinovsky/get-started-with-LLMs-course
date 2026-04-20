@@ -1,115 +1,80 @@
-# Claude — Getting Started
+# Claude — เริ่มต้นใช้งาน
 
-## What is Claude?
+## Claude คืออะไร?
 
-**Claude** is an AI assistant developed by **Anthropic**, an AI safety company founded in 2021 by former OpenAI researchers. Claude is designed with a strong emphasis on being **helpful, harmless, and honest**.
+**Claude** คือผู้ช่วย AI จาก **Anthropic** ที่เน้นหลักการ **helpful, harmless, and honest** (เป็นประโยชน์ ปลอดภัย และซื่อสัตย์)
 
-Claude is known for its exceptional ability to handle very long documents, nuanced reasoning, and careful, thoughtful responses.
+จุดเด่นของ Claude คือการจัดการเอกสารยาว ๆ ได้ดี การให้เหตุผลที่ละเอียด และการตอบที่รอบคอบ
 
-## Available Models
+## โมเดลที่ใช้งานได้
 
-| Model | Context Window | Key Strengths |
+| โมเดล | Context Window | จุดเด่น |
 |-------|---------------|---------------|
-| **Claude 3 Haiku** | 200K tokens | Fast, lightweight tasks |
-| **Claude 3 Sonnet** | 200K tokens | Balanced performance |
-| **Claude 3.5 Sonnet** | 200K tokens | Best coding & reasoning |
-| **Claude 3 Opus** | 200K tokens | Most capable, complex tasks |
+| **Claude 3 Haiku** | 200K tokens | เร็ว งานเบา |
+| **Claude 3 Sonnet** | 200K tokens | สมดุลระหว่างความเร็วและคุณภาพ |
+| **Claude 3.5 Sonnet** | 200K tokens | เด่นด้านโค้ดและการให้เหตุผล |
+| **Claude 3 Opus** | 200K tokens | ความสามารถสูงสำหรับงานซับซ้อน |
 
-> **200K token context window** = roughly 150,000 words — enough to analyze an entire book in one session!
+## แพ็กเกจ
 
-## Available Plans
-
-| Plan | Access | Features |
+| แพ็กเกจ | การเข้าถึง | ฟีเจอร์ |
 |------|--------|----------|
-| **Free** | claude.ai | Limited daily messages |
-| **Pro** ($20/month) | claude.ai | 5× more usage, priority access |
-| **Team** ($25/user/month) | claude.ai | Collaboration features |
-| **API** | api.anthropic.com | Programmatic access |
+| **Free** | claude.ai | ข้อความต่อวันจำกัด |
+| **Pro** ($20/เดือน) | claude.ai | ใช้งานมากขึ้นและเข้าถึงก่อน |
+| **Team** | claude.ai | รองรับงานร่วมทีม |
+| **API** | api.anthropic.com | เรียกใช้ผ่านโปรแกรม |
 
-## Getting Started
+## เริ่มต้นใช้งาน
 
-### Step 1 — Access Claude
-1. Go to [https://claude.ai](https://claude.ai)
-2. Sign up with your email or Google account
-3. Start chatting immediately on the free tier
+1. เข้า [https://claude.ai](https://claude.ai) แล้วสมัคร
+2. พิมพ์คำถามหรือแนบไฟล์ (PDF, Word, รูป, โค้ด)
+3. ลองใช้ **Projects** เพื่อกำหนด system prompt และเอกสารอ้างอิงแบบถาวร
 
-### Step 2 — Start a Conversation
-1. Type your message in the chat box
-2. Attach files (PDFs, Word docs, images, code files) if needed
-3. Claude responds with thoughtful, detailed answers
+## ฟีเจอร์เด่น
 
-### Step 3 — Explore Projects
-**Projects** (Pro feature) let you:
-- Give Claude a persistent **system prompt** for a specific purpose
-- Upload reference documents that Claude keeps in context
-- Maintain ongoing work across multiple conversations
+### วิเคราะห์เอกสารยาว
+- ถามเชิงลึกจากงานวิจัย/สัญญา/เอกสารหลายฉบับ
+- สรุปและเปรียบเทียบหลายไฟล์พร้อมกัน
 
-## Key Features
+### เขียนและรีวิวโค้ด
+- เขียนโค้ดหลายภาษา
+- ตรวจหาบั๊ก ประเด็นความปลอดภัย และปรับปรุงประสิทธิภาพ
 
-### Long Document Analysis
-Claude's 200K token context window lets you:
-- Upload an entire research paper and ask detailed questions
-- Analyze long contracts or legal documents
-- Summarize and compare multiple documents at once
-
-**Example**: Upload a 100-page PDF and ask:
-> "What are the three most important findings in this research paper? List any limitations the authors mention."
-
-### Code Generation and Review
-Claude excels at software development tasks:
-- Writing code in Python, JavaScript, TypeScript, Go, and more
-- Reviewing code for bugs and security issues
-- Explaining complex codebases
-- Converting code between programming languages
-
-### Writing and Editing
-- Drafting professional documents, essays, and reports
-- Editing for clarity, tone, and grammar
-- Matching specific writing styles
+### งานเขียนและการแก้ไข
+- ร่างเอกสารเชิงธุรกิจ
+- ปรับโทนภาษา ความชัดเจน และไวยากรณ์
 
 ### Artifacts
-Claude can create **Artifacts** — interactive content displayed alongside the conversation:
-- Rendered HTML/CSS/JavaScript code
-- SVG diagrams
-- Markdown documents
-- Spreadsheet-like tables
+Claude สามารถสร้างเนื้อหาแบบโต้ตอบ เช่น HTML, SVG, Markdown และตาราง
 
-## Anthropic's Safety Approach
+## แนวทางความปลอดภัยของ Anthropic
 
-Anthropic uses a technique called **Constitutional AI (CAI)** to train Claude:
-1. Claude is given a set of principles (a "constitution")
-2. Claude learns to evaluate and revise its own responses based on these principles
-3. This makes Claude less likely to produce harmful content
+Anthropic ใช้แนวทาง **Constitutional AI (CAI)** เพื่อให้ Claude ประเมินและปรับคำตอบตามหลักการที่กำหนด ลดโอกาสการสร้างเนื้อหาที่เป็นอันตราย และส่งเสริมการแสดงความไม่แน่ใจเมื่อข้อมูลไม่ชัดเจน
 
-Claude is also trained to **express uncertainty** rather than confidently stating incorrect information.
+## กรณีใช้งานทั่วไป
 
-## Common Use Cases
-
-| Use Case | Example Prompt |
+| งาน | ตัวอย่างพรอมป์ |
 |----------|---------------|
-| Document Analysis | "Here is a research paper [paste text]. Summarize it and identify the key claims." |
-| Coding | "Review this Python code for bugs and suggest improvements: [code]" |
-| Long-form Writing | "Write a 1,500-word blog post about the benefits of remote work" |
-| Data Extraction | "Extract all dates, names, and amounts from this contract: [text]" |
-| Learning | "Explain transformer architecture from first principles" |
-| Debate Prep | "Give me the strongest arguments for and against universal basic income" |
+| วิเคราะห์เอกสาร | “สรุปงานวิจัยนี้และชี้ประเด็นหลัก” |
+| โค้ด | “ช่วยรีวิวโค้ด Python นี้และเสนอปรับปรุง” |
+| เขียนบทความยาว | “เขียนบทความ 1,500 คำเรื่อง remote work” |
+| ดึงข้อมูล | “ดึงวันที่ ชื่อ และจำนวนเงินทั้งหมดจากสัญญานี้” |
 
-## Tips and Best Practices
+## เคล็ดลับ
 
-1. **Use Projects** — Set up a system prompt to define Claude's role for recurring tasks
-2. **Upload documents directly** — Claude handles PDFs, Word docs, and code files natively
-3. **Ask for reasoning** — "Think step by step before answering"
-4. **Request multiple options** — "Give me three different approaches to this problem"
-5. **Be explicit about length** — "Answer in one paragraph" or "Give a detailed explanation"
+1. ใช้ Projects กับงานที่ทำซ้ำ
+2. แนบไฟล์ตรง ๆ เพื่อให้วิเคราะห์จากข้อมูลจริง
+3. ขอหลายทางเลือกในการแก้ปัญหา
+4. ระบุความยาวคำตอบที่ต้องการ
 
-## Limitations
+## ข้อจำกัด
 
-- **No real-time internet access** by default (Claude.ai has some web search capability)
-- **Knowledge cutoff**: Training data has a cutoff date
-- **No image generation**: Claude can analyze images but cannot create them
-- **Hallucination**: Like all LLMs, Claude can occasionally generate incorrect information
+- โดยปกติไม่มีอินเทอร์เน็ตแบบเรียลไทม์
+- มี knowledge cutoff
+- สร้างภาพไม่ได้ (แต่วิเคราะห์ภาพได้)
+- อาจเกิด hallucination ได้ในบางกรณี
 
-## References
+## แหล่งอ้างอิง
 
 - [Claude Official Site](https://claude.ai)
 - [Anthropic Documentation](https://docs.anthropic.com)

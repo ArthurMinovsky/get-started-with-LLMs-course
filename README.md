@@ -1,34 +1,34 @@
-# Get Started with LLMs Course
+# คอร์สเริ่มต้นใช้งาน LLMs
 
-Welcome to the **Get Started with LLMs** course! This course provides an introduction to the most popular Large Language Model (LLM) tools and platforms available today.
+ยินดีต้อนรับสู่คอร์ส **Get Started with LLMs**! คอร์สนี้ออกแบบมาเพื่อแนะนำเครื่องมือและแพลตฟอร์ม Large Language Model (LLM) ที่ได้รับความนิยมมากที่สุดในปัจจุบัน
 
-## Course Overview
+## ภาพรวมคอร์ส
 
-This course covers the following topics:
+คอร์สนี้ครอบคลุมหัวข้อต่อไปนี้:
 
-| # | Topic | Description |
-|---|-------|-------------|
-| 1 | [Introduction](./01-introduction/README.md) | What are LLMs? Core concepts and overview |
-| 2 | [ChatGPT](./02-chatgpt/README.md) | OpenAI's ChatGPT — getting started and key features |
-| 3 | [Claude](./03-claude/README.md) | Anthropic's Claude — capabilities and use cases |
-| 4 | [Gemini](./04-gemini/README.md) | Google's Gemini — multimodal AI and integrations |
-| 5 | [NotebookLM](./05-notebooklm/README.md) | Google's NotebookLM — AI-powered research assistant |
-| 6 | [LM Studio](./06-lm-studio/README.md) | LM Studio — run LLMs locally on your machine |
-| 7 | [n8n](./07-n8n/README.md) | n8n — automate workflows with AI |
+| # | หัวข้อ | คำอธิบาย |
+|---|-------|----------|
+| 1 | [บทนำ](./01-introduction/README.md) | LLM คืออะไร? แนวคิดพื้นฐานและภาพรวม |
+| 2 | [ChatGPT](./02-chatgpt/README.md) | เริ่มต้นใช้งาน ChatGPT และฟีเจอร์สำคัญ |
+| 3 | [Claude](./03-claude/README.md) | ความสามารถและกรณีใช้งานของ Claude |
+| 4 | [Gemini](./04-gemini/README.md) | AI แบบหลายสื่อและการเชื่อมต่อกับ Google |
+| 5 | [NotebookLM](./05-notebooklm/README.md) | ผู้ช่วยวิจัยอัจฉริยะจาก Google |
+| 6 | [LM Studio](./06-lm-studio/README.md) | รัน LLM แบบโลคัลบนเครื่องของคุณ |
+| 7 | [n8n](./07-n8n/README.md) | ระบบอัตโนมัติของเวิร์กโฟลว์ด้วย AI |
 
-## Prerequisites
+## สิ่งที่ควรมี
 
-- A computer with internet access
-- Basic familiarity with web browsers
-- No prior programming experience required
+- คอมพิวเตอร์ที่เชื่อมต่ออินเทอร์เน็ต
+- ใช้งานเว็บเบราว์เซอร์พื้นฐานได้
+- ไม่จำเป็นต้องมีประสบการณ์เขียนโปรแกรมมาก่อน
 
-## How to Use This Repository
+## วิธีใช้รีโพซิทอรีนี้
 
-Each topic has its own folder containing:
-- A **README.md** with course material, explanations, and references
-- An **examples/** subfolder with sample files for hands-on practice
+แต่ละหัวข้อจะมีโฟลเดอร์ของตัวเอง โดยประกอบด้วย:
+- ไฟล์ **README.md** สำหรับเนื้อหา บทอธิบาย และแหล่งอ้างอิง
+- โฟลเดอร์ย่อย **examples/** สำหรับไฟล์ตัวอย่างเพื่อฝึกปฏิบัติ
 
-## References
+## แหล่งอ้างอิง
 
 - [OpenAI ChatGPT](https://chat.openai.com)
 - [Anthropic Claude](https://claude.ai)
