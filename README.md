@@ -6,27 +6,63 @@ header: 'Get Started with LLMs'
 footer: '© LLMs Course'
 size: 16:9
 style: |
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700&family=Sarabun:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
   section {
+    font-family: 'Noto Sans Thai', 'Sarabun', 'Sukhumvit Set', 'Thonburi', sans-serif;
     font-size: 24px;
+    line-height: 1.6;
+    letter-spacing: 0.01em;
+  }
+  h1, h2, h3, h4 {
+    font-family: 'Noto Sans Thai', 'Sarabun', 'Sukhumvit Set', 'Thonburi', sans-serif;
+    font-weight: 600;
+    line-height: 1.35;
   }
   h1 {
     color: #2563eb;
+    font-size: 1.8em;
   }
   h2 {
     color: #1e40af;
     border-bottom: 2px solid #93c5fd;
     padding-bottom: 6px;
+    font-size: 1.4em;
+  }
+  h3 {
+    color: #334155;
+    font-size: 1.1em;
   }
   table {
     font-size: 18px;
+    line-height: 1.45;
+  }
+  th {
+    background: #eff6ff;
   }
   code {
+    font-family: 'JetBrains Mono', 'Menlo', 'Consolas', monospace;
     background: #f1f5f9;
     padding: 2px 6px;
     border-radius: 4px;
+    font-size: 0.92em;
   }
   pre {
-    font-size: 16px;
+    font-family: 'JetBrains Mono', 'Menlo', 'Consolas', monospace;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  pre code {
+    background: transparent;
+    padding: 0;
+  }
+  blockquote {
+    border-left: 4px solid #93c5fd;
+    color: #475569;
+    font-style: normal;
+  }
+  strong {
+    color: #1e40af;
+    font-weight: 600;
   }
 ---
 
@@ -35,7 +71,7 @@ style: |
 <!-- _header: '' -->
 <!-- _footer: '' -->
 
-![bg right:40% w:80%](https://commons.wikimedia.org/wiki/Special:FilePath/OpenAI_logo_2025_(symbol).svg)
+![bg right:30% w:40%](https://commons.wikimedia.org/wiki/Special:FilePath/OpenAI_logo_2025_(symbol).svg)
 
 # Get Started with LLMs Course
 
@@ -46,17 +82,17 @@ most useful large language model tools.
 
 ---
 
-## Course Overview
+## Table of Contents
 
-| # | Topic | Learning focus |
-|---|-------|----------------|
-| 1 | Introduction | LLM basics, key terminology, beginner concepts |
-| 2 | ChatGPT | Getting started, prompt engineering, limitations |
-| 3 | Claude | Long context, project workflow, practical use cases |
-| 4 | Gemini | Multimodal AI, Google ecosystem, API usage |
-| 5 | NotebookLM | Source-grounded research workflow and citations |
-| 6 | LM Studio | Local model execution, model selection, inference |
-| 7 | n8n | Workflow automation and AI agent orchestration |
+| # | Chapter | Key Topics |
+|---|---------|------------|
+| 1 | [Introduction to LLMs](#1-introduction-to-llms) | LLM basics · System Prompts · Agents · Context Files · Documentation |
+| 2 | [ChatGPT](#2-chatgpt) | Prompt engineering · Best practices |
+| 3 | [Claude](#3-claude) | Long context · Project workflow |
+| 4 | [Gemini](#4-gemini) | Multimodal AI · Google ecosystem |
+| 5 | [NotebookLM](#5-notebooklm) | Source-grounded research · Studio |
+| 6 | [LM Studio](#6-lm-studio-) | Local models · curl · Python API |
+| 7 | [n8n](#7-n8n) | Workflow automation · Google Cloud API |
 
 ---
 
