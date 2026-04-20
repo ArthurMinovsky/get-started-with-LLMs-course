@@ -71,7 +71,7 @@ style: |
 <!-- _header: '' -->
 <!-- _footer: '' -->
 
-![bg right:15% w:20%](https://commons.wikimedia.org/wiki/Special:FilePath/OpenAI_logo_2025_(symbol).svg)
+![bg right:10% w:8%](https://commons.wikimedia.org/wiki/Special:FilePath/OpenAI_logo_2025_(symbol).svg)
 
 # Get Started with LLMs Course
 
@@ -80,6 +80,10 @@ Welcome to the **Get Started with LLMs** course.
 A practical, beginner-friendly tour of today's
 most useful large language model tools.
 
+
+
+\
+github:  https://github.com/ArthurMinovsky/get-started-with-LLMs-course/blob/main/README.md
 ---
 
 ## Table of Contents
