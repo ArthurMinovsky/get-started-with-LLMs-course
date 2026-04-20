@@ -659,6 +659,8 @@ n8n = visual workflow automation (open-source, self-host ได้)
    - HTTP Request, Google Sheets, OpenAI, etc.
 5. เชื่อม node ด้วยลากเส้น → กด **Execute Workflow**
 
+Ref: https://www.thepexcel.com/n8n-ep01/
+
 ---
 
 ## 7.1 ตัวอย่าง Workflow เบื้องต้น
@@ -748,6 +750,8 @@ Example file: [workflow-examples.md](07-n8n/examples/workflow-examples.md)
 - [Google NotebookLM](https://notebooklm.google.com)
 - [LM Studio](https://lmstudio.ai)
 - [n8n](https://n8n.io) — [Docs](https://docs.n8n.io)
+- [คู่มือการเขียน prompt อย่างมีประสิทธิภาพ](https://www.facebook.com/AiLife5.0/posts/pfbid02Axbo2UnSGd7Vbu2FGj3cineoBfwiur96pvwfVncydqModmyGxR3d3irz3AWnRVvPl?__cft__[0]=AZbBUIKrCwnSlGiPPzRIsYWerxRpjrtsrM4XB6r6HfQNTZ3t2x_k8F3-_KsqYsqnssnN2O496lcYnZa3mBW8F65YQhPFGRjMZgARlaymubBPaQQtzJRPCEndEyAfPegwh9rfcDgQRFInh66tCqAllipM3nmdruH2-ILTOs2QV77vP91wFfhokQTYNaRZqXL3LsI&__tn__=%2CO%2CP-R)
+- [การใช้งาน n8n เบื้องต้น](https://www.thepexcel.com/n8n-ep01/)
 - [NVIDIA Nemotron (HuggingFace)](https://huggingface.co/nvidia)
 
 ---
