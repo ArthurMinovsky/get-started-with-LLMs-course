@@ -99,8 +99,8 @@ github:  https://github.com/ArthurMinovsky/get-started-with-LLMs-course/blob/mai
 | 2.3 | [Gemini](#23-gemini) | Multimodal AI · Google ecosystem |
 | 2.5 | [Prompt & Context engineering](#25-prompt--context-engineering) | Prompt design · Context files · Agent setup |
 | 3 | [NotebookLM](#3-notebooklm) | Source-grounded research · Studio |
-| 6 | [LM Studio](#6-lm-studio-) | Local models · curl · Python API |
-| 7 | [n8n](#7-n8n) | Workflow automation · Google Cloud API |
+| 4 | [LM Studio](#6-lm-studio-) | Local models · curl · Python API |
+| 5 | [n8n](#7-n8n) | Workflow automation · Google Cloud API |
 
 ---
 
@@ -420,7 +420,7 @@ Agent = LLM + บทบาท + เครื่องมือ + เป้าห
 
 ---
 
-## 5.1 แนะนำ NotebookLM เบื้องต้น
+## 3.1 แนะนำ NotebookLM เบื้องต้น
 
 **NotebookLM** = AI research assistant ของ Google
 ที่ทำงานบน **source ที่คุณให้เท่านั้น**
@@ -434,7 +434,7 @@ Agent = LLM + บทบาท + เครื่องมือ + เป้าห
 
 ---
 
-## 5.1 ประเภท Source ที่รองรับ
+## 3.2 ประเภท Source ที่รองรับ
 
 | ประเภท | ตัวอย่าง |
 |--------|----------|
@@ -449,7 +449,7 @@ Agent = LLM + บทบาท + เครื่องมือ + เป้าห
 
 ---
 
-## 5.1 การหา Source คุณภาพ
+## 3.3 การหา Source คุณภาพ
 
 - **Google Scholar** — งานวิจัย peer-reviewed
 - **arXiv** — preprint สาย CS / ML / Physics
@@ -462,7 +462,7 @@ Agent = LLM + บทบาท + เครื่องมือ + เป้าห
 
 ---
 
-## 5.1 แปลง Source เป็น Media (Studio)
+## 3.4 แปลง Source เป็น Media (Studio)
 
 NotebookLM Studio สร้าง media จาก source ได้:
 
@@ -478,7 +478,7 @@ NotebookLM Studio สร้าง media จาก source ได้:
 
 ---
 
-## 5.2 Best Practices
+## 3.5 Best Practices
 
 - เริ่มจากภาพรวม (guide / summary)
 - ถามแบบเจาะจงและตรวจ citation ทุกครั้ง
@@ -488,7 +488,7 @@ Example file: [use-case-scenarios.md](05-notebooklm/examples/use-case-scenarios.
 
 ---
 
-## 5.3 ⚠️ ข้อควรระวังของ NotebookLM
+## 3.6 ⚠️ ข้อควรระวังของ NotebookLM
 
 | ข้อจำกัด | ผลกระทบ |
 |---------|---------|
@@ -503,7 +503,7 @@ Example file: [use-case-scenarios.md](05-notebooklm/examples/use-case-scenarios.
 
 ---
 
-# 6. LM Studio 💻
+# 4. LM Studio 💻
 
 ### Highlights
 - รัน open-source LLM บนเครื่องตนเอง (offline ได้)
@@ -512,7 +512,7 @@ Example file: [use-case-scenarios.md](05-notebooklm/examples/use-case-scenarios.
 
 ---
 
-## 6.1 แนะนำการใช้งาน LM Studio
+## 4.1 แนะนำการใช้งาน LM Studio
 
 ขั้นตอนเริ่มต้น:
 1. ดาวน์โหลด LM Studio จาก `lmstudio.ai`
@@ -525,7 +525,7 @@ Example file: [use-case-scenarios.md](05-notebooklm/examples/use-case-scenarios.
 
 ---
 
-## 6.1 เลือกโมเดลตามทรัพยากร
+## 4.2 เลือกโมเดลตามทรัพยากร
 
 | RAM / VRAM | ขนาดโมเดลที่เหมาะ |
 |------------|---------------------|
@@ -538,7 +538,7 @@ Example file: [use-case-scenarios.md](05-notebooklm/examples/use-case-scenarios.
 
 ---
 
-## 6.2 เรียกใช้ด้วย curl
+## 4.3 เรียกใช้ด้วย curl
 
 LM Studio ใช้ API format เดียวกับ OpenAI
 
@@ -557,7 +557,7 @@ curl http://localhost:1234/v1/chat/completions \
 
 ---
 
-## 6.2 เรียกใช้ด้วย Python (openai library)
+## 4.4 เรียกใช้ด้วย Python (openai library)
 
 ```python
 from openai import OpenAI
@@ -581,7 +581,7 @@ print(response.choices[0].message.content)
 
 ---
 
-## 6.3 Best Practices
+## 4.5 Best Practices
 
 - เริ่มจากโมเดลขนาดเล็กและ quantization สมดุล (เช่น `Q4_K_M`)
 - เลือกโมเดลตามทรัพยากรเครื่อง (RAM / GPU)
@@ -591,7 +591,7 @@ Example file: [model-selection-guide.md](06-lm-studio/examples/model-selection-g
 
 ---
 
-# 7. n8n
+# 5. n8n
 
 ![bg right:38% w:90%](https://commons.wikimedia.org/wiki/Special:FilePath/N8n-logo-new.svg)
 
@@ -602,7 +602,7 @@ Example file: [model-selection-guide.md](06-lm-studio/examples/model-selection-g
 
 ---
 
-## 7.1 แนะนำการใช้งาน n8n
+## 5.1 แนะนำการใช้งาน n8n
 
 n8n = visual workflow automation (open-source, self-host ได้)
 
@@ -619,7 +619,7 @@ Ref: https://www.thepexcel.com/n8n-ep01/
 
 ---
 
-## 7.1 ตัวอย่าง Workflow เบื้องต้น
+## 5.2 ตัวอย่าง Workflow เบื้องต้น
 
 ```
 [Schedule Trigger] (ทุก 9 โมง)
@@ -637,7 +637,7 @@ Ref: https://www.thepexcel.com/n8n-ep01/
 
 ---
 
-## 7.2 ดึง Google Cloud API มาใช้กับ n8n
+## 5.3 ดึง Google Cloud API มาใช้กับ n8n
 
 ขั้นตอนสร้าง Google credential:
 
@@ -654,7 +654,7 @@ Ref: https://www.youtube.com/watch?v=FBGtpWMTppw&t=184s
 
 ---
 
-## 7.2 ตั้งค่า Credential ใน n8n
+## 5.4 ตั้งค่า Credential ใน n8n
 
 1. ใน n8n → **Credentials** → **New** → ค้นหา **Google**
 2. เลือกประเภท เช่น **Google Sheets OAuth2 API**
@@ -667,7 +667,7 @@ Ref: https://www.youtube.com/watch?v=FBGtpWMTppw&t=184s
 
 ---
 
-## 7.2 Service Account (สำหรับ server-to-server)
+## 5.5 Service Account (สำหรับ server-to-server)
 
 ทางเลือกแทน OAuth (ไม่ต้อง login ผู้ใช้):
 
@@ -682,7 +682,7 @@ Ref: https://www.youtube.com/watch?v=FBGtpWMTppw&t=184s
 
 ---
 
-## 7.3 Best Practices
+## 5.6 Best Practices
 
 - เริ่มจาก workflow เล็ก ๆ และทดสอบทีละ node
 - ตั้ง error handling และ monitoring
